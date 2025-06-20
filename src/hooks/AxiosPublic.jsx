@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react';
 
 const instant = axios.create({
-    baseURL: 'https://users-api-server-six.vercel.app',
+    baseURL: 'https://infinitscroll-api-server.onrender.com',
     withCredentials: true
 })
 
